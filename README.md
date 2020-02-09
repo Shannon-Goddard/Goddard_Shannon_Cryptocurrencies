@@ -55,7 +55,9 @@ Before moving data to our unsupervised algorithms, we complete the following ste
 
 **Data processing** involves organizing the data by formatting, cleaning, and sampling it.  
 
-**Data transformation** entails transforming our data into a simpler format for storage and future use, such as a CSV, spreadsheet, or database file.
+**Data transformation** entails transforming our data into a simpler format for storage and future use, such as a CSV, spreadsheet, or database file.  
+
+Once our data is cleaned and processed, we would export the final version of the data as a CSV file for future analysis.
 
 ### **Cluster data using the K-means algorithm.**  
 ### **Determine the best amount of centroids for K-means using the elbow curve.**  
