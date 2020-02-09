@@ -50,8 +50,11 @@ Before moving data to our unsupervised algorithms, we complete the following ste
 - Data selection
 - Data processing
 - Data transformation  
+
 **Data Selection** entails making good choices about which data will be used. Consider what data is available, what data is missing, and what data can be removed.  
+
 **Data processing** involves organizing the data by formatting, cleaning, and sampling it.  
+
 **Data transformation** entails transforming our data into a simpler format for storage and future use, such as a CSV, spreadsheet, or database file.
 
 ### **Cluster data using the K-means algorithm.**  
