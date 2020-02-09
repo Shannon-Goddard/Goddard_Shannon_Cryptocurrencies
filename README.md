@@ -25,11 +25,11 @@ We work primarily with the K-means algorithm, the main unsupervised algorithm th
 - Use PCA to limit features and speed up the model.
 
 ## Summary  
-###Describe the differences between supervised and unsupervised learning, including real-world examples of each.  
-###Preprocess data for unsupervised learning.  
-###Cluster data using the K-means algorithm.  
-###Determine the best amount of centroids for K-means using the elbow curve.  
-###Use PCA to limit features and speed up the model.
+### **Describe the differences between supervised and unsupervised learning, including real-world examples of each.**  
+### **Preprocess data for unsupervised learning.**  
+### **Cluster data using the K-means algorithm.**  
+### **Determine the best amount of centroids for K-means using the elbow curve.**  
+### **Use PCA to limit features and speed up the model.**
 
 ## Challenge Overview  
 In this challenge, we use unsupervised learning to analyze data on the cryptocurrencies traded on the market. We present a report of what cryptocurrencies are on the trading market and how cryptocurrencies could be grouped toward creating a classification for developing a new investment product. The data we work with is not ideal, so we process it to fit the machine learning models. Since there is no known output for what we are looking for, we decided to use unsupervised learning. To group the cryptocurrencies, we decided on a clustering algorithm to help determine about investing in this product. We used data visualizations to share our findings.
@@ -42,7 +42,7 @@ In this challenge, we use unsupervised learning to analyze data on the cryptocur
 - Create some plots and data tables to present your results.
 
 ## Challenge Summary
-**Data Preprocessing**  
+### **Data Preprocessing**  
 In this section, you have to load the information about cryptocurrencies from the provided CSV file and perform some data preprocessing tasks. The data was retrieved from [CryptoCompare](https://min-api.cryptocompare.com/data/all/coinlist)  
 
 Start by loading the data in a Pandas DataFrame named “crypto_df.” Continue with the following data preprocessing tasks:
@@ -58,7 +58,7 @@ Start by loading the data in a Pandas DataFrame named “crypto_df.” Continue 
 <br/>
 <img align="left" width="260" src="/pics/.png"><br/>  
 
-**Reducing Data Dimensions Using PCA**  
+### **Reducing Data Dimensions Using PCA**  
 Use the [PCA algorithm from sklearn](https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html) to reduce the dimensions of the X DataFrame down to three principal components.  
 
 Once you have reduced the data dimensions, create a DataFrame named “pcs_df” that includes the following columns: PC 1, PC 2, and PC 3. Use the crypto_df.index as the index for this new DataFrame.  
@@ -67,7 +67,7 @@ You should have a DataFrame like the following:
 <br/>
 <img align="left" width="260" src="/pics/.png"><br/>
 
-**Clustering Cryptocurrencies Using K-means**  
+### **Clustering Cryptocurrencies Using K-means**  
 You’ll use the [KMeans algorithm from sklearn](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html) to cluster the cryptocurrencies using the PCA data.  
 
 Complete the following tasks:
@@ -78,7 +78,7 @@ Complete the following tasks:
 <br/>
 <img align="left" width="260" src="/pics/.png"><br/>
 
-**Visualizing Results**  
+### **Visualizing Results**  
 You’ll create data visualizations to present the final results.  
 
 Complete the following tasks:
