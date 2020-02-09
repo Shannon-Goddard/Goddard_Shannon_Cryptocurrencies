@@ -46,6 +46,14 @@ The owner wants to predict the best time to start selling school supplies so sta
 Now, imagine the owner notices that when customers come in to buy school supplies, they also purchase non-school items, giving other categories a bump in sales. There are a wide variety of products to offer different consumers, so the owner wants to know which consumers might buy more products and what items they might want to buy. We don’t really know how to group the data, but we know that grouping the data will be instructive. You’ll need to factor in many data points, such as age, race, gender, location, and much more. Since the owner doesn't know exactly how many groups or what kinds of customers those groups contain, the best method for finding out would be unsupervised learning. With unsupervised learning, the owner can plug the full dataset in and cluster groups of customers together.
 
 ### **Preprocess data for unsupervised learning.**  
+Before moving data to our unsupervised algorithms, we complete the following steps for preparing data:
+- Data selection
+- Data processing
+- Data transformation  
+**Data Selection** entails making good choices about which data will be used. Consider what data is available, what data is missing, and what data can be removed.  
+**Data processing** involves organizing the data by formatting, cleaning, and sampling it.  
+**Data transformation** entails transforming our data into a simpler format for storage and future use, such as a CSV, spreadsheet, or database file.
+
 ### **Cluster data using the K-means algorithm.**  
 ### **Determine the best amount of centroids for K-means using the elbow curve.**  
 ### **Use PCA to limit features and speed up the model.**
