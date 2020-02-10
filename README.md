@@ -63,14 +63,11 @@ Once our data is cleaned and processed, we would export the final version of the
 Clustering is a type of unsupervised learning that groups data points together. This group of data points is called a **cluster**.  
 
 **K-means** is an unsupervised learning algorithm used to identify and solve clustering issues.  
-
-K represents how many clusters there will be. These clusters are then determined by the **means** of all the points that will belong to the cluster.  
-
-The K-means algorithm groups the data into K clusters, where belonging to a cluster is based on some similarity or distance measure to a centroid.  
+- K represents how many clusters there will be. These clusters are then determined by the **means** of all the points that will belong to the cluster.  
+- The K-means algorithm groups the data into K clusters, where belonging to a cluster is based on some similarity or distance measure to a centroid.  
 
 A **centroid** is a data point that is the arithmetic mean position of all the points on a cluster.  
-
-The centroid is found by taking the mean of all the x values in a cluster, and the mean of all the y values in a cluster.
+- The centroid is found by taking the mean of all the x values in a cluster, and the mean of all the y values in a cluster.
 
 ### **Determine the best amount of centroids for K-means using the elbow curve.**  
 ### **Use PCA to limit features and speed up the model.**
