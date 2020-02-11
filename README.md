@@ -83,7 +83,27 @@ To create an elbow curve:
 - Plot the inertia values on the y-axis.
 
 ### **Use PCA to limit features and speed up the model.**  
-**PCA(Principal Component Analysis)** is a statistical technique to speed up machine learning algorithms when the number of input features (or dimensions) is too high. PCA reduces the number of dimensions by transforming a large set of variables into a smaller one that contains most of the information in the original large set.
+**PCA(Principal Component Analysis)** is a statistical technique to speed up machine learning algorithms when the number of input features (or dimensions) is too high. PCA reduces the number of dimensions by transforming a large set of variables into a smaller one that contains most of the information in the original large set.  
+
+Stats concepts in a feature extraction:  
+- **Mean** is the sum of a group of numbers divided by the total amount of numbers.  
+- **Variance** is the square distance from each point from the center, added together, and divided by the total number of points. The variance measures the spread of a set of numbers.  
+
+The center of the line is set to the mean.  
+
+Covariance comes into play when the variances are exactly the same; however, it is very obvious that the two graphs are totally different. For example, when each has the same center, with different points on the left and the right, one sloping negatively and the other sloping positively. 
+- **Covariance** is a metric that allows us to tell these two different sets of points apart.  
+
+Covariance is the sum of the product of coordinates divided by the number of points. The Line can have:
+- a negative covariance  
+- a positive covariance  
+- covariance of zero.  
+
+Eigenvectors and eigenvalues show us the spread of the dataset and by how much.
+- **eigenvectors** are the points that stretch out in our graph in different directions.  
+- **eigenvalue** are the magnitude that each of these stretches.  
+
+The higher eigenvalue is the axis that carries the most amount of information. The Final data points will give us a table of two columns. Ultimately, just reducing dimensions yet still keeping the values.
 
 ## Challenge Overview  
 In this challenge, we use unsupervised learning to analyze data on the cryptocurrencies traded on the market. We present a report of what cryptocurrencies are on the trading market and how cryptocurrencies could be grouped toward creating a classification for developing a new investment product. The data we work with is not ideal, so we process it to fit the machine learning models. Since there is no known output for what we are looking for, we decided to use unsupervised learning. To group the cryptocurrencies, we decided on a clustering algorithm to help determine about investing in this product. We used data visualizations to share our findings.
