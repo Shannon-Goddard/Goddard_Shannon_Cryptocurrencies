@@ -82,7 +82,8 @@ To create an elbow curve:
 - Plot the number of clusters (also known as the values of K) on the x-axis  
 - Plot the inertia values on the y-axis.
 
-### **Use PCA to limit features and speed up the model.**
+### **Use PCA to limit features and speed up the model.**  
+**PCA(Principal Component Analysis)** is a statistical technique to speed up machine learning algorithms when the number of input features (or dimensions) is too high. PCA reduces the number of dimensions by transforming a large set of variables into a smaller one that contains most of the information in the original large set.
 
 ## Challenge Overview  
 In this challenge, we use unsupervised learning to analyze data on the cryptocurrencies traded on the market. We present a report of what cryptocurrencies are on the trading market and how cryptocurrencies could be grouped toward creating a classification for developing a new investment product. The data we work with is not ideal, so we process it to fit the machine learning models. Since there is no known output for what we are looking for, we decided to use unsupervised learning. To group the cryptocurrencies, we decided on a clustering algorithm to help determine about investing in this product. We used data visualizations to share our findings.
