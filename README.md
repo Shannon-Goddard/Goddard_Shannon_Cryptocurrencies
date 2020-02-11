@@ -70,13 +70,17 @@ A **centroid** is a data point that is the arithmetic mean position of all the p
 - The centroid is found by taking the mean of all the x values in a cluster, and the mean of all the y values in a cluster.
 
 ### **Determine the best amount of centroids for K-means using the elbow curve.**  
-An easy method for determining the best number for K is the elbow curve. Elbow curves get their names from their shape: they turn on a specific value, which looks a bit like an elbow.  
+One method for determining the best number for K is the elbow curve. Elbow curves get their names from their shape: they turn on a specific value, which looks a like an elbow.  
 
-To create an elbow curve, we plot the clusters on the x-axis and the values of a selected objective function on the y-axis.  
+To create an elbow curve:  
+- Plot the clusters on the x-axis  
+- Plot the values of a selected objective function on the y-axis.  
 
-**Inertia** is one of the most common objective functions to use when creating an elbow curve. While what it’s actually doing can get into some pretty complicated math, basically the inertia objective function is measuring the amount of variation in the dataset.  
+**Inertia** is one of the most common objective functions to use when creating an elbow curve. The inertia objective function measures the amount of variation in the dataset.  
 
-So, for our elbow curve, we plot the number of clusters (also known as the values of K) on the x-axis and the inertia values on the y-axis.
+To create an elbow curve:
+- Plot the number of clusters (also known as the values of K) on the x-axis  
+- Plot the inertia values on the y-axis.
 
 ### **Use PCA to limit features and speed up the model.**
 
