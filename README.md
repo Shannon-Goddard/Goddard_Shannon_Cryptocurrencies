@@ -70,7 +70,7 @@ A **centroid** is a data point that is the arithmetic mean position of all the p
 - The centroid is found by taking the mean of all the x values in a cluster, and the mean of all the y values in a cluster.
 
 ### **Determine the best amount of centroids for K-means using the elbow curve.**  
-One method for determining the best number for K is the elbow curve. Elbow curves get their names from their shape: they turn on a specific value, which looks a like an elbow.  
+One method for determining the best number for K is the elbow curve. Elbow curves get their names from their shape: they turn on a specific value, which looks like an elbow.  
 
 To create an elbow curve:  
 - Plot the clusters on the x-axis  
