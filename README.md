@@ -133,7 +133,12 @@ We started by loading the data in a Pandas DataFrame named “crypto_df” and c
 ### **Reducing Data Dimensions Using PCA**  
 We used the [PCA algorithm from sklearn](https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html) to reduce the dimensions of the X DataFrame down to three principal components.  
 
-Once we had reduced the data dimensions, we created a DataFrame named “pcs_df” that includes the following columns: PC 1, PC 2, and PC 3. We used the crypto_df.index as the index for this new DataFrame.  
+Once we had reduced the data dimensions, we created a DataFrame named “pcs_df” that includes the following columns:  
+- PC 1 
+- PC 2  
+- PC 3  
+
+We used the crypto_df.index as the index for this new DataFrame.  
 
 ### **Clustering Cryptocurrencies Using K-means**  
 We used the [KMeans algorithm from sklearn](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html) to cluster the cryptocurrencies using the PCA data.  
